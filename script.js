@@ -12,7 +12,6 @@ clearScr.addEventListener('click', () => {
     ansScr.innerHTML = 0;
     userInput.className = 'user-input';
     ansScr.className = 'ans-scr';
-    document.reload;
     userInput.style.display = 'block';
 });
 
