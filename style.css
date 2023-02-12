@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -63,7 +64,7 @@ body {
 }
 
 .dis-section .ans-scr {
-    color:#FFFF00;
+    color: #FFFF00;
     line-height: 32px;
     font-size: 19px;
     font-weight: 500;
@@ -89,6 +90,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.num-btn:hover {
+    background: #c77a07;
+}
+
 .func-btn {
     background: #FF008E;
     border: none;
@@ -97,4 +102,8 @@ body {
     color: #ffffff;
     border-radius: 5px;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.func-btn:hover {
+    background: #d40276;
 }

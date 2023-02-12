@@ -4,7 +4,6 @@ let clearScr = document.querySelector('#clearScr');
 let backSpace = document.querySelector('#backSpace');
 let ansEvaluate = document.querySelector('#ansEvaluate');
 let buttons = document.querySelectorAll('button');
-let funcBtn = document.querySelector('.func-btn');
 
 let answerEvaluate = [];
 
